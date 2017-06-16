@@ -1,0 +1,28 @@
+<h1 style="text-align:center">
+  <img src="img/TaggerLogo2nd.png" alt="" style="max-width:80%;width:900px;display:inline-block">
+</h1>
+
+<style>
+
+</style>
+
+<h3 style="text-align:center;color:rgb(46,46,46);font-weight: 100;margin-top:20px;"> <we style="color:rgb(233,66,66)">Searching</we> for relevance in piles of
+  <we style="color:rgb(233,66,66)">text</we> was never this <we style="color:rgb(233,66,66)">easy</we> </h2>
+<h3 style="text-align:center;color:rgb(46,46,46);font-weight: 100;"> <we style="color:rgb(233,66,66)">No dependencies</we>
+  , no need for a special builder or framework or bundler</h3>
+<h3 style="text-align:center;color:rgb(46,46,46);font-weight: 100;"> Only <we style="color:rgb(233,66,66)">8.57</we>K and only
+  <we style="color:rgb(233,66,66)">2.4</we>K gziped (compression level 6)</h3>
+
+<h3 style="font-weight:20">Basic Usage</h3>
+```html
+<script src="../dist/tagger.min.js"></script>
+<script type="text/javascript">
+  let keywords = Tagger.invokeTagger(yourText, "Some more text", other text);
+</script>
+```
+```javascript
+  console.log(keywords);
+  //---> ["FirstKeyword","SecondKeyword","etc"...]
+```
+<p>That's pretty much it, now "keywords" is an array containing some keywords from the text</p>
+<p>These can be used for server side indexing, detecting user interest and behavior patterns, creating summaries of text-blobs client-side and anything else you can think of.</p>
