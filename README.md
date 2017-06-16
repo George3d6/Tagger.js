@@ -2,7 +2,7 @@
   <img src="img/TaggerLogo2nd.png" alt="" style="max-width:80%;width:900px;display:inline-block">
 </h1>
 
-<h6>*Version 0.3.9*</h6>
+<h6>*Version 0.4.1*</h6>
 
 <h3>Searching for relevance in piles of text was never this easy</h3>
 <h3>No dependencies, no need for a special builder or framework or bundler</h3>
