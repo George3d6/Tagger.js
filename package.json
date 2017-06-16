@@ -48,5 +48,5 @@
     "test": "node tests/mainTest.js && node tests/configTest.js && node tests/learningTest.js",
     "build": "webpack"
   },
-  "version": "0.3.8"
+  "version": "0.4.1"
 }
