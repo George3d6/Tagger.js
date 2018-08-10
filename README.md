@@ -1,21 +1,19 @@
 # Tagger
 
-<h1 style="text-align:center">
-  <img src="img/TaggerLogo2nd.png" alt="" style="max-width:80%;width:900px;display:inline-block">
-</h1>
+> Version 0.4.3
 
-<h6>*Version 0.4.1*</h6>
-
-* Searching for relevance in piles of text was never this easy</h3>
-* No dependencies, no need for a special builder or framework or bundler</h3>
-* Only 8.57 K and only 2.4 K gziped (compression level 6)</h3>
+* Searching for relevance in piles of text was never this easy
+* No dependencies, no need for a special builder or framework or bundler
+* Only 8.57 K and only 2.4 K gziped (compression level 6)
 
 A small and easy to use javascript library for finding keywords in small-medium amounts of text using the good 'ol td-idf and some other basic tricks. Works out of the box and can be configured to the core if the results aren't good enough.
 
-Install:
->npm install tagger.js
+## Installation
+> npm i tagger.js
 
-You can start using the library within a few seconds or minutes.
+Or download the minified script (exposes a global Tagger object)
+
+> wget https://raw.githubusercontent.com/George3d6/Tagger.js/master/tagger.min.js
 
 ## Basic Usage
 

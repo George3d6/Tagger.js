@@ -9,7 +9,7 @@ module.exports =
   output:
   {
     path: __dirname,
-    filename: "tagger.js",
+    filename: "tagger.min.js",
     library: "Tagger",
     libraryTarget: "umd"
   },
