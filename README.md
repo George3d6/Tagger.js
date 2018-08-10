@@ -1,6 +1,6 @@
 # Tagger
 
-> Version 0.4.3
+> Version 0.4.4
 
 * Searching for relevance in piles of text was never this easy
 * No dependencies, no need for a special builder or framework or bundler
