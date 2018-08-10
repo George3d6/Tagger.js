@@ -23,6 +23,11 @@ Or download the minified script (exposes a global Tagger object)
   let keywords = Tagger.invokeTagger(yourText, "Some more text", other text);
 </script>
 ```
+Alternatively, if you are using node or a node like dependency manager, you can create a `Tagger` object like so:
+
+```
+const Tagger = require('tagger.js')
+```
 
 That's pretty much it, now "keywords" is an array containing some keywords from the text
 These can be used for server side indexing, detecting user interest and behavior patterns, creating summaries of text-blobs client-side and anything else you can think of.

@@ -1,6 +1,6 @@
 {
   "_from": "tagger.js",
-  "_id": "tagger.js@0.4.2",
+  "_id": "tagger.js@0.4.4",
   "_inBundle": false,
   "_integrity": "sha1-qot66c4E7B2YiB8P3ituGta4Id4=",
   "_location": "/tagger.js",
@@ -42,11 +42,11 @@
     "webpack-dev-server": "^1.16.1"
   },
   "license": "N/A",
-  "main": "tagger.js",
+  "main": "tagger.min.js",
   "name": "tagger.js",
   "scripts": {
     "test": "node tests/mainTest.js && node tests/configTest.js && node tests/learningTest.js",
     "build": "webpack"
   },
-  "version": "0.4.3"
+  "version": "0.4.4"
 }
