@@ -119,10 +119,10 @@ At least, in my limited experience with the library. In the end, the best way to
 
 If you're unsure what those algorithm's are check some documentation about [tf-idf](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) or check the [td-idf javascript library](https://git.cerebralab.com/george/td-idf) onto which this library is built.
 
-##Is it not working yet ?
+## Is it not working yet ?
 
-In this case I'd consider this issue worthy. If you have the time and patience please present me with your configurations and the samples you tested it on by posting and issue or sending me and email over at: george.hosu@protonmail.com or george.h.personal@gmail.com
+In this case I'd consider this issue worthy. If you have the time and patience please present me with your configurations and the samples you tested it on by posting and issue or sending me and email over at: george@cerebralab.com
 
-##Can I help development ?
+## Can I help with development ?
 
-Though this library is pretty basic Its still unfinished and I'd love new ideas for how I can improve it. If you wish to help me develop the library feel free to clone it and look through the comments. If you have any improvements or features that you can add feel free to make your own branch and make a pull request when you feel its completed.
+Though this library is pretty basic. However, I'd love new ideas for how I can improve it or make it faster or smaller :)
