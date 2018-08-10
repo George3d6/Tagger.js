@@ -17,21 +17,19 @@ Install:
 
 You can start using the library within a few seconds or minutes.
 
-<h2>Basic Usage</h2>
+## Basic Usage
+
 ```html
 <script src="../dist/tagger.min.js"></script>
 <script type="text/javascript">
   let keywords = Tagger.invokeTagger(yourText, "Some more text", other text);
 </script>
 ```
-```javascript
-  console.log(keywords);
-  //---> ["FirstKeyword","SecondKeyword","etc"...]
-```
+
 That's pretty much it, now "keywords" is an array containing some keywords from the text
 These can be used for server side indexing, detecting user interest and behavior patterns, creating summaries of text-blobs client-side and anything else you can think of.
 
-<h2>Advanced configurations</h2>
+## Advanced configurations
 
 If the out of the box function isn't quite doing it for you there are some easy things you can do to configure it in order to obtain better results:
 
